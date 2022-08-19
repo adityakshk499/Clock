@@ -1,0 +1,46 @@
+.clockface{
+    
+    position: relative;
+    margin:4% auto;
+    /* border: 1px solid black; */
+    width: 40vw;
+    height: 40vw;
+    background: url(clock.png) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#hour,#second,#minute{
+    position:absolute;
+    background:black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+
+#hour{
+width:.5%;
+height:27.5%;
+top:22.6%;
+left:49.8%;
+opacity: 0.8;
+/* display: none; */
+}
+
+#second{
+    width:.5%;
+    height:30%;
+    top:18.5%;
+    left:49.5%;
+    opacity: 0.8;
+    /* display: none; */
+}
+
+#minute{
+    width:.5%;
+    height:37%;
+    top:13.5%;
+    left:49.5%;
+    opacity: 0.8;
+    /* display:none; */
+}
